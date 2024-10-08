@@ -10,7 +10,6 @@ zones = {
 
 #Robot properties
 battery = 100
-inventory = []
 collected_power_cells = 0
 total_power_cells = 5
 
