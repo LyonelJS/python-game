@@ -89,7 +89,7 @@ def display_inventory():
 while battery > 0 and collected_power_cells < total_power_cells:
     print('\nMove to a zone and collect 5 power cells before running out of battery to win. Each travel costs 10 percent of the robot battery')
     print(f'Robot Battery : {battery}%')
-    print(f'Available zones: {(zones.keys())}')
+    print(f'Available zones: {list(zones.keys())}')
     
     zone = input('Enter a zone: ')
     item = move_to_zone(zone)
